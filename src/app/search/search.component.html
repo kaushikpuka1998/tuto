@@ -1,0 +1,10 @@
+<p>search works!</p>
+
+<div class="search-div">
+    <span>
+        <b>Search:</b>
+    </span>
+    <!-- <input type='text' (input)="findingdata($event)"> -->
+    <input type='text' [(ngModel)] = "searchvalue">
+    <p> You are searching for {{searchvalue }}</p>
+</div>
